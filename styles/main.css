@@ -1,0 +1,33 @@
+body{
+    color:white;
+    background-color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.insideImage{
+    max-width: 100%;
+    height: auto;
+}
+
+.mainLogo{
+    height: auto;
+    display: block;
+    margin:auto;
+    width:400px;
+}
+
+main{
+    max-width:1100px;
+    margin:auto;
+}
+
+
+@media screen and (max-width: 400px) {
+    .mainLogo{
+        width:100%;
+    }
+}
