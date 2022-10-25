@@ -1,4 +1,39 @@
 .footer{
+   
+    border-top:1px solid grey;
+    height:200px;
+    text-align: center;
+    /*background-image:  url(../images/darthHead.png);*/
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/darthHead.png');
+    background-size: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
     background-color:black;
-    margin-top:1px solid grey;
 }
+
+footer a:link {
+    color: lightgrey;
+    text-decoration: none;
+
+  }  
+  /* visited link */
+  footer a:visited {
+    color: lightgrey;
+    text-decoration: none;
+
+  }
+  
+  /* mouse over link */
+ footer  a:hover {
+    color: white;
+    text-decoration: none;
+
+  }
+  
+  /* selected link */
+  footer a:active {
+    color: lightgrey;
+    text-decoration: none;
+
+  }
