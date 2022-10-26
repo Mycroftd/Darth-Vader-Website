@@ -1,0 +1,49 @@
+
+.textover img { width: 100%; }
+
+/* (C) POSITION CAPTION */
+.textover { position: relative; } /* REQUIRED */
+.textover figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.textover figcaption {
+    box-sizing: border-box;
+    width: 100%;
+    height:100px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    vertical-align:center;    
+  }
+  .textover span{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+
+  @media only screen and (max-width: 600px) {
+    .textover span{
+        font-size: 20px;
+    }
+
+    @media only screen and (max-width: 400px) {
+        .textover span{
+            font-size: 14px;
+        }
+ 
+  }
+}
+
+ 
+
+

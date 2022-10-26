@@ -8,7 +8,8 @@
 <link rel="stylesheet" href="styles/menuStyles.css">
 <link rel="stylesheet" href="styles/footer.css">
 <link rel="stylesheet" href="styles/slider.css">
-
+<link rel="stylesheet" href="styles/grid.css">
+<link rel="stylesheet" href="styles/centerImageText.css">
 
 
 
@@ -28,45 +29,59 @@
     <main>
         <h1>Darth Vader Quotes</h1>
 
-        <div class="slideshow-container">
+        <figure class="textover">
+            <img id="darth-quote" src="images/darthVaderquotes.jpeg" alt="picture of darth vader"/>
+            <figcaption><span>"I am your Father"<br/>THE EMPIRE STRIKES BACK</span></figcaption>
+        </figure>
 
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
-                <img src="images/QuotePictures/quotes1.jpeg" style="width:100%">
-                <div class="text">"You're a part of the rebel Alliance and a traitor. Take her Away!"<br><span>A NEW HOPE</span></div>
+
+
+        <section class="grid-container">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="images/QuotePictures/quotes1.jpeg" style="width:100%">
+                    <div class="text">"You're a part of the rebel Alliance and a traitor. Take her Away!"<br><span>A NEW
+                            HOPE</span></div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="images/QuotePictures/quotes2.jpeg" style="width:100%">
+                    <div class="text">"I am your Father."<br><span>THE EMPIRE STRIKES BACK</span></div>div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="images/QuotePictures/quotes3.jpeg" style="width:100%">
+                    <div class="text">"The emperor will show you the true nature of the force"<br><span>RETURN OF THE
+                            JEDI</span></div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
             </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="images/QuotePictures/quotes2.jpeg" style="width:100%">
-                <div class="text">"I am you Father."<br><span>THE EMPIRE STRIKES BACK</span></div>div>
+            <div class="moreQuotes">
+                <h2>More Darth Vader Quotes</h2>
+                <ol>
+                    <li>“He’s as clumsy as he is stupid.”</li>
+                    <li>“You don’t know the power of the dark side! I must obey my master.”</li>
+                    <li>“This will be a day long remembered. It has seen the end of Kenobi. It will soon see the end of
+                        the Rebellion.”</li>
+                    <li>“I am altering the deal. Pray I don’t alter it any further.”</li>
+                    <li>“Be careful not to choke on your aspirations.”</li>
+                    <li>“You have controlled your fear. Now, release your anger. Only your hatred can destroy me.”</li>
+                    <li>“When I left you, I was but the learner. Now I am the master.”</li>
+                    <li>“Don’t be too proud of this technological terror you’ve constructed. The ability to destroy a
+                        planet is insignificant next to the power of the Force.”</li>
+                    <li>“No … I am your Father…”</li>
+                    <li>“I find your lack of faith disturbing.”</li>
+                </ol>
             </div>
+        </section>
 
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="images/QuotePictures/quotes3.jpeg" style="width:100%">
-                <div class="text">"The emperor will show you the true nature of the force"<br><span>RETURN OF THE JEDI</span></div>
-            </div>
 
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
-            <br/>
-         </div>
-         <h2>More Darth Vader Quotes</h2>
-         <ol>
-            <!--TODO USE grid to put these in three different boxes-->
-             <li>“He’s as clumsy as he is stupid.”</li>
-             <li>“He’s as clumsy as he is stupid.”</li>
-             <li>“He’s as clumsy as he is stupid.”</li>
-             <li>“He’s as clumsy as he is stupid.”</li>
-             <li>“He’s as clumsy as he is stupid.”</li>
-             <li>“He’s as clumsy as he is stupid.”</li>
-             <li>“He’s as clumsy as he is stupid.”</li>
-             <li>“He’s as clumsy as he is stupid.”</li>
-             <li>“He’s as clumsy as he is stupid.”</li>
-             <li>“He’s as clumsy as he is stupid.”</li>
 
-         </ol>
 
     </main>
 
