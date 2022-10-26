@@ -1,4 +1,5 @@
 body{
+    height: 100%;;
     margin:0px;
     color:lightgray;
     background-color:black;
@@ -43,3 +44,22 @@ main{
         width:100%;
     }
 }
+
+/* sets footer at the bottom of the page*/
+html, body{
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+header{
+    flex: 0 1 auto;
+}
+
+main{
+    flex: 1 1 auto;
+}
+
+footer{
+    flex: 0 1 200px;
+}/* sets footer at the bottom of the page*/
